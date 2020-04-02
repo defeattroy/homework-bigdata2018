@@ -208,16 +208,16 @@ Rules:
  320180941291, 320180942301, A, A, B, A, A
  comment:The code is right but the writter didn't use doctest and there is too much Chinese in the note annotation.  
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941361, 320170926300, 
- comment:
- 320180941361, 320180940891, 
- comment:
- 320180941361, 320180941161, 
- comment:
- 320180941361, 320180941821, 
- comment:
- 320180941361, 320170929331, 
- comment:
+ 320180941361, 320170926300, A,C,B,B,A
+ comment:Too few code comments. Try to use English for code comments.
+ 320180941361, 320180940891, A,A,C,B,B
+ comment:No documentation,overall, your code is good.
+ 320180941361, 320180941161, A,A,A,A,A
+ comment:Prefect code!
+ 320180941361, 320180941821, A,A,A,A,A
+ comment:Your code is fully functional.
+ 320180941361, 320170929331, A,A,A,B,A
+ comment:Test and documentation are very well, but the code not have execption handling.
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941370, 320180940891, 
  comment:
