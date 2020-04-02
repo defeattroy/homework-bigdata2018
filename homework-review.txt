@@ -186,16 +186,16 @@ Rules:
  320180941161, 320180940780, A,A,A,A,B
  comment:the coding style isn't pythonic.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941250, 320170926300, 
- comment:
- 320180941250, 320180941590, 
- comment:
- 320180941250, 320180941841, 
- comment:
- 320180941250, 320180942011, 
- comment:
- 320180941250, 320180942021, 
- comment:
+ 320180941250, 320170926300, A,C,B,A,A
+ comment:code functions are complete,but more comments are in Chinese,test is not doctest.
+ 320180941250, 320180941590, A,B,C,B,A
+ comment:code missing many comments,and not do test.
+ 320180941250, 320180941841, A,A,A,B,A
+ comment:code is concise and functions are complete,exception handling needs improvement.
+ 320180941250, 320180942011, A,A,A,A,A
+ comment:code is great,functions are complete!
+ 320180941250, 320180942021, A,A,A,A,A
+ comment:functions are complete,correct and great code!
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941291, 320180942011, A, A, A, A, A
  comment:No grammar errors, the functions of class are complete. The code is concise and the doctest is easy to understand.
