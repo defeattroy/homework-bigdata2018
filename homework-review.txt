@@ -164,16 +164,16 @@ Rules:
  320180941011, 320180942211, A, A, B, A, A
  comment:comments in Chinese
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941141, 320180941250, C,A,D,A,B
- comment:Not enough features,and no doctest 
- 320180941141, 320180941291, A,A,A,A,A
- comment:Really good
- 320180941141, 320180941780, A,A,A,A,B
- comment:Good,but almost no comments
- 320180941141, 320180942261, A,A,A,A,A
- comment:Really good
- 320180941141, 320180941001, B,C,C,B,B
- comment:No running results,but most code is OK 
+ 320180941141, 320180941250, 
+ comment:
+ 320180941141, 320180941291, 
+ comment:
+ 320180941141, 320180941780, 
+ comment:
+ 320180941141, 320180942261, 
+ comment:
+ 320180941141, 320180941001, 
+ comment:
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941161, 320180941370, A,A,A,A,B
  comment: Good job! But the coding style isn't pythonic.
@@ -307,16 +307,16 @@ Rules:
  320180941780, 320180942321, A, A, C, A, B
  comment: The documentation is insufficient.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941821, 320180942201, 
- comment:
- 320180941821, 320180941420, 
- comment:
- 320180941821, 320180941780, 
- comment:
- 320180941821, 320180942181, 
- comment:
- 320180941821, 320180941991, 
- comment:
+ 320180941821, 320180942201, B, B, A, C, B
+ comment:I can'run it. Maybe you should try to give documentation in english, and give some test.
+ 320180941821, 320180941420, A, A, A, B, B
+ comment:Good job! If you can cansider about exception and pythonic, it will be better.
+ 320180941821, 320180941780, A, B, A, B, A
+ comment:Excellent work! It's so beautiful.
+ 320180941821, 320180942181, A, A, A, A, A
+ comment:I can' find how to improve it.
+ 320180941821, 320180941991, A, A, B, A, B
+ comment:It will be better if you can provide ducumentation in English.
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941841, 320180941691, 
  comment:
