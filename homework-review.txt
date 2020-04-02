@@ -219,16 +219,16 @@ Rules:
  320180941361, 320170929331, 
  comment:
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941370, 320180940891, 
- comment:
- 320180941370, 320180941980, 
- comment:
- 320180941370, 320180941011, 
- comment:
- 320180941370, 320180940961, 
- comment:
- 320180941370, 320180942261, 
- comment:
+ 320180941370, 320180940891, A,B,B,A,B
+ comment:Good job!But you should use the doctest.And the note need in English!
+ 320180941370, 320180941980, A,A,A,A,B
+ comment:Good job!But your style is not pythonic.
+ 320180941370, 320180941011, A,B,A,A,B
+ comment:Good job!But you should use the doctest!
+ 320180941370, 320180940961, A,A,A,A,A
+ comment:Great!
+ 320180941370, 320180942261, A,A,A,A,A
+ comment:Great!
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941420, 320180941901, A, A, B, A, A
  comment: complete functions, but documentation is not good
