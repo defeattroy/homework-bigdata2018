@@ -32,16 +32,16 @@ Rules:
  Grading list
  --------
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320170900210, 320180941691, 
- comment:
- 320170900210, 320180942301, 
- comment:
- 320170900210, 320180940891, 
- comment:
- 320170900210, 320180941881, 
- comment:
- 320170900210, 320180941991, 
- comment:
+ 320170900210, 320180941691,  A, A, A, A, B
+ comment:the code is not pythonic
+ 320170900210, 320180942301,  A, B, B, A, B
+ comment:the code is not pythonic,but no doctest,comments in Chinese
+ 320170900210, 320180940891,  A, B, B, A, B
+ comment:the code is not pythonic,but no doctest,comments in Chinese
+ 320170900210, 320180941881,  A, A, B, A, B
+ comment:the code is not pythonic,missing comments
+ 320170900210, 320180941991,  A, A, B, A, A
+ comment:comments in Chinese
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320170903441, 320180941370, 
  comment:
