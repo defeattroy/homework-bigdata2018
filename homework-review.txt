@@ -362,16 +362,16 @@ Rules:
  320180941890, 320180919421, A,A,A,A,A
  comment:Well done,everything is totally covered
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941901, 320180941931, 
- comment:
- 320180941901, 320180941651, 
- comment:
- 320180941901, 320170903441, 
- comment:
- 320180941901, 320180941460, 
- comment:
- 320180941901, 320180941291, 
- comment:
+ 320180941901, 320180941931, A, B, C, B, C
+ comment: Chinese is used. The functions are right but there is no doctest ,no documentation . And the code does't follow PEP8 so that it looks too compact.
+ 320180941901, 320180941651, B, A, B, B, A
+ comment: Well, Chinese is used in document. The functions  are not very comprehensive.  Exception handling has no type checking in some functions, such as use " isinstance(object, Matrix ) " .
+ 320180941901, 320170903441, A, A, B, B, A
+ comment: The code does not has  detailed documents.  Exception handling is used but not fully used. Above all it is good job. 
+ 320180941901, 320180941460, B, A, B, B, A 
+ comment: The code could have more  detailed documents. Exception handling has no type checking in some functions. The code could be more pythonic.
+ 320180941901, 320180941291, B, A, B, A, B
+ comment: no document and comment format is strange. Code doesn't all follow PEP8 rules. Exeption handling is good!
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941931, 320180940961, C,B,B,C,B
  comment:The code is sth. wrong. Function is not full.
