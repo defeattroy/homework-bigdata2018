@@ -137,7 +137,7 @@ Rules:
  comment:totally good!
  320180940981, 320170929331,A,A,A,A,B 
  comment:care about pep8
- 320180940981, 320170903441, 
+ 320180940981, 320170903441,A,A,A,A,B 
  comment:pay attention to the coding style and pep8
  320180940981, 320170900210, A,A,A,A,B
  comment:pay attention to the coding style and pep8
