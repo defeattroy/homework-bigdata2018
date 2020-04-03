@@ -43,7 +43,7 @@ Rules:
  320170900210, 320180941991,  A, A, B, A, A
  comment:comments in Chinese
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320170903441, 320180941370, 
+ 320170903441, 320180941370, A, A, A, B, C
  comment:
  320170903441, 320180941901, 
  comment:
