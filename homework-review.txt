@@ -131,27 +131,27 @@ Rules:
  320180940961, 320180942181,A,A,B,B,B 
  comment:Complete more functions.But pay attention to the pep8.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180940981, 320180941001, A,A,A,A,A
- comment:the function is perfect，the test is perfect,good job
- 320180940981, 320180941980, A,A,A,A,A
- comment:totally good
- 320180940981, 320170929331, A,A,A,A,B
- comment:care about pep8
- 320180940981, 320170903441, A,A,A,A,B
- comment:pay attention to coding style and pep8
- 320180940981, 320170900210, A,A,A,A,B
- comment:pay attention to coding style and pep8
+ 320180940981, 320180941001, 
+ comment:
+ 320180940981, 320180941980, 
+ comment:
+ 320180940981, 320170929331, 
+ comment:
+ 320180940981, 320170903441, 
+ comment:
+ 320180940981, 320170900210, 
+ comment:
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941001, 320180941141, 
- comment:
- 320180941001, 320180940780, 
- comment:
- 320180941001, 320180919421, 
- comment:
- 320180941001, 320180941460, 
- comment:
- 320180941001, 320180941011, 
- comment:
+ 320180941001, 320180941141, A,C,B,C,C
+ comment:no write class, no test documentation, but the code is not bad
+ 320180941001, 320180940780, A,A,A,A,B
+ comment:the code is ok,just a little problem in it
+ 320180941001, 320180919421, A,A,A,A,B
+ comment:The code is correct,the exceptions is right
+ 320180941001, 320180941460, A,B,B,A,A
+ comment:the doctest don't perfect.But the rest is perfect.
+ 320180941001, 320180941011, A,C,A,A,A
+ comment:It doesn't have doctest,but the rest is correct.
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941011, 320180942321, A, A, A, A, A
  comment: virtually a perfect code, no wrong grammar, integrated test part, totally beyond what an undergraduate should be able to do
