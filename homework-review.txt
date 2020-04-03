@@ -44,15 +44,15 @@ Rules:
  comment:comments in Chinese
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320170903441, 320180941370, A, A, A, B, C
- comment:
- 320170903441, 320180941901, 
- comment:
- 320170903441, 320180941931, 
- comment:
- 320170903441, 320180940981, 
- comment:
- 320170903441, 320170926300, 
- comment:
+ comment:There is no error or expection in code, but no pythonic code.
+ 320170903441, 320180941901, A, A, A, A, A
+ comment:The code is complete, dosen't exist error and uses pythonic code. 
+ 320170903441, 320180941931, A, B, C, C, C
+ comment: He used chinese comment and improper code style.
+ 320170903441, 320180940981, A, B, C, B, B
+ comment:The docstr and comment isn't complete.
+ 320170903441, 320170926300, A, C, B, B, A
+ comment:The functionality of code is complex and complete but doesn't exist proper  docstr and comment.
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320170926300, 320180942321, 
  comment:
