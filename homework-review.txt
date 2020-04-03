@@ -131,16 +131,16 @@ Rules:
  320180940961, 320180942181,A,A,B,B,B 
  comment:Complete more functions.But pay attention to the pep8.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180940981, 320180941001, 
- comment:
- 320180940981, 320180941980, 
- comment:
- 320180940981, 320170929331, 
- comment:
+ 320180940981, 320180941001,A,A,A,A,A
+ comment:the function is perfect,the test is perfect,good job
+ 320180940981, 320180941980,A,A,A,A,A
+ comment:totally good!
+ 320180940981, 320170929331,A,A,A,A,B 
+ comment:care about pep8
  320180940981, 320170903441, 
- comment:
- 320180940981, 320170900210, 
- comment:
+ comment:pay attention to the coding style and pep8
+ 320180940981, 320170900210, A,A,A,A,B
+ comment:pay attention to the coding style and pep8
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941001, 320180941141, A,C,B,C,C
  comment:no write class, no test documentation, but the code is not bad
