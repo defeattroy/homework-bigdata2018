@@ -285,16 +285,16 @@ Rules:
  320180941651, 320180942201, A,C,B,A,B
  comment:comments is not English,no test, the code can be pythonic
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941691, 320180941250, 
- comment:
- 320180941691, 320180941881, 
- comment:
- 320180941691, 320180941861, 
- comment:
- 320180941691, 320180941001, 
- comment:
- 320180941691, 320180941651, 
- comment:
+ 320180941691, 320180941250, B,C,C,B,B
+ comment:No doctest, No documentation.
+ 320180941691, 320180941881, A,A,A,A,A
+ comment:the code is clean.
+ 320180941691, 320180941861, A,A,A,A,B
+ comment:parts of the code do not conform to pep8
+ 320180941691, 320180941001,  A,A,B,A,A
+ comment:no class comment
+ 320180941691, 320180941651, A,A,B,A,A
+ comment:no type checking and Chinese is used in document
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941780, 320180942181, A, A, B, A, A
  comment: There's not enough ducumentation, like information about author and so on.
