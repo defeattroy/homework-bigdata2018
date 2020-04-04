@@ -318,16 +318,16 @@ Rules:
  320180941821, 320180941991, A, A, B, A, B
  comment:It will be better if you can provide ducumentation in English.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941841, 320180941691, 
- comment:
- 320180941841, 320180942301, 
- comment:
- 320180941841, 320180941861, 
- comment:
- 320180941841, 320180941581, 
- comment:
- 320180941841, 320180941881, 
- comment:
+ 320180941841, 320180941691, A, B, A, B, A
+ comment: Excellent code! But some wrong in the test-case of Matrix.invert() and some exceptions not considered.
+ 320180941841, 320180942301, A, C, D, B, C
+ comment: Although the function is correct but not perfect, the test cases are confused and use Chinese, and the code style is seriously inconsistent with pep8.
+ 320180941841, 320180941861, A, B, B, A, B
+ comment: Excellent code! But although the function is correct but not perfect and does not conform to pep8 much.
+ 320180941841, 320180941581, A, C, B, A, B
+ comment: Excellent code! But no doctest, The documentation are not perfect. Some parts conform to pep8 and some parts do not conform to pep8.
+ 320180941841, 320180941881, A, A, B, A, B
+ comment: Excellent work! But doctest is better place in function and the code is not conform to pep8  much and the documentation is a little rough.
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941861, 320180940780, B, A, B, B, A
  comment: the coding style isn't pythonic. Having false.
