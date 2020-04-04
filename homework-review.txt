@@ -109,15 +109,15 @@ Rules:
  320180940780, 320170903441, A, A, A, A, A
  comment:The code is easy to read, the tests are correct, and exceptions are handled well.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180940891, 320170900210, 
+ 320180940891, 320170900210, A,A,B,A,A
  comment:
  320180940891, 320180928901, A,A,B,A,B
  comment:This is good!but is not profect.
- 320180940891, 320180940780, 
- comment:
- 320180940891, 320180941841, 
- comment:
- 320180940891, 320180941691, 
+ 320180940891, 320180940780, B,A,B,B,A
+ comment: having false
+ 320180940891, 320180941841, A,A,A,B,A
+ comment: OK, but not perfect
+ 320180940891, 320180941691, A,B,A,A,A
  comment:
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180940961, 320180928901, A,A,B,A,B
