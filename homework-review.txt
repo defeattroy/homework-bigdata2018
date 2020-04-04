@@ -329,16 +329,16 @@ Rules:
  320180941841, 320180941881, 
  comment:
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180941861, 320180940780, 
- comment:
- 320180941861, 320180941291, 
- comment:
- 320180941861, 320180940981, 
- comment:
- 320180941861, 320180941890, 
- comment:
- 320180941861, 320180942261, 
- comment:
+ 320180941861, 320180940780, B, A, B, B, A
+ comment: the coding style isn't pythonic. Having false.
+ 320180941861, 320180941291, A, A, B, A, B
+ comment:Code doesn't all follow PEP8 rules. No document, and comment format is strange.
+ 320180941861, 320180940981, A, B, A, A, B
+ comment:the coding style isn't pythonic.
+ 320180941861, 320180941890, A, A, B, B, A
+ comment:IN ENGLISH. LONGER EXPECTIN
+ 320180941861, 320180942261, A, A, A, A, A
+ comment: ONLY NB
  Reviewer, homework, correctness, test, documentation, exception, pep8
  320180941881, 320180942261, A,A,A,A,A
  comment:perfect code ,the class has many functions and no grammar wrong,code style is standard
