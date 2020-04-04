@@ -494,13 +494,13 @@ Rules:
  320180942301, 320180941841, A, B, A, C, A
  comment:Using LRU cache and product third-party library, the code is simple and easy to understand, but the function is not perfect, the test doctest is not perfect, and there is no exception handling.
  Reviewer, homework, correctness, test, documentation, exception, pep8
- 320180942321, 320180941821, 
- comment:
- 320180942321, 320180942011, 
- comment:
- 320180942321, 320180942131, 
- comment:
- 320180942321, 320180941691, 
- comment:
- 320180942321, 320180941250, 
- comment:
+ 320180942321, 320180941821, A, A, A, B, A
+ comment:exception is not very good
+ 320180942321, 320180942011, A, A, A, A, A
+ comment:the code is excellent
+ 320180942321, 320180942131, A, B, A, B, B
+ comment:doctest and exception is not comprehensive,doesn't follow PEP8 well
+ 320180942321, 320180941691, A, A, A, B, B
+ comment:exception is not very good,doesn't follow PEP8 well
+ 320180942321, 320180941250, A, B, A, B, B
+ comment:doctest and exception is not good,doesn't follow PEP8 well
