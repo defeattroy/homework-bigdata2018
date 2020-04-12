@@ -1,0 +1,24 @@
+1.correctness(A):
+After testing, the function of the implementation in the given scope is correct, and some code is considered pythonic.
+Maybe method identity()(in 67th line), zeros()(in 83th line) should be static? Using these two methods requires an existing matrix is a bit odd.
+2.test(A):
+Have doctest in __main__，pass all the running tests. 
+Have help message in each method.
+3.documentation(A):
+There are proper comments, but there seems to be a lack of copyright, author, and version information...
+4.exception(A):
+Use assert and excepthon, maybe have too broad exception clause?(in 31th, 116th, 133th, line of code)
+5.pep8(A):
+Generally in line with the coding specification, here are some more accurate recommendations for pep8:
+	1.For block comments, leave a space after '#': 
+		in: 1st line of code.
+	2.Try to limit the maximum length of each line to 79 lines, beyond which you can use '\' or parentheses to wrap the line:
+		in: 55th, 64th, 80th line of code.
+	3.A blank line is required between method definitions in the class:
+		in: 12th, 57th line of code.
+	4.expected 2 blank lines after class or function definition:
+		in: 150th line of code.
+	5.missing whitespace after ',':
+		in: 3rd, 5th, 13th, 14th, 17th, 25th, 35th, 48th, 67th, 75th, 83th, 90th, 98th, 106th, 119th, 137th line of code.
+	6.multiple spaces after 'return':
+		in: 56th line of code.

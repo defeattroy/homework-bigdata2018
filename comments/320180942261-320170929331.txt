@@ -1,0 +1,21 @@
+1.correctness(A):
+After testing, the function of the implementation in the given scope is correct.
+Maybe should give a static method of identity?
+2.test(A):
+Have doctest in __main__，pass all the running tests. 
+in line 38th, the test results appear to fail, change to '1 2 3 \n \n' and pass.
+Have help message in each method.
+3.documentation(A):
+Have the proper comments of class, but there seems to be a lack of copyright, author, and version information...
+4.exception(B):
+There seem to be no assertions and exceptions?
+5.pep8(A):
+Generally in line with the coding specification, and here are some more accurate recommendations:
+	1.Try to limit the maximum length of each line to 79 lines, beyond which you can use '\' or parentheses to wrap the line:
+		in: 85th, 244th,288th line of code.
+	2.There is an extra line of space between methods:
+		in: 311th-314th lines of code.
+	3.Maybe missing whitespace after ':':
+		in: 243th line of code.
+	4.Maybe indentation is not a multiple of four(it's missing a space):
+		in 116th, 157th line of code.
