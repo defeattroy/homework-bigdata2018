@@ -14,6 +14,7 @@ import pandas as pd
 """
 
 def load_data(path):
+    #load data
     data = []
     for root, dirs, files in os.walk(path):
         for file in files:
@@ -47,11 +48,12 @@ def time_bar_plot(time_anxiety, time_health, name):
 
 
 def domathoftime(anxiety, health):
-    # acc_anxiety
+    #Do the math of time
+    #anxiety
     time_anxiety = []
     for _ in anxiety:
         time_anxiety.append((len(_) / 5) / 60)
-    # acc_health
+    #health
     time_health = []
     for _ in health:
         time_health.append((len(_) / 5) / 60)
@@ -131,7 +133,7 @@ for _ in data:
             del _[position]
 
 
-# 根据X,Y,Z三个坐标的方差、绝对值后的平均值，这两种数据分别画图，检查出那些放在桌子上的数据组。
+# 根据X,Y,Z三个坐标的方差、绝对值后的平均值,分别画图.检查出那些放在桌子上的数据组。
 # 若方差过小，可能是手机放在桌上。 若绝对值后的平均值仍然趋近于0，可能放在桌子上。
 name = ['acc_anxiety', 'acc_health', 'DM_anxiety', 'DM_health', 'Gry_anxiety', 'Gry_health']
 for pos in range(len(data)):
