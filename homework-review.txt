@@ -1,0 +1,506 @@
+Rules:
+ ------
+ 1. Each one as reviewer will get 5 homeworks to review.
+ 2. The reviewers should read the source code and grade them from the following aspects
+ 	1) correctness, correctness of functionality the code provides
+ 	2) test, proper doctest, unitest, testsuite in __main__, help message?
+ 	3) documentation, proper docstr, proper comment, copyright, author, version information?
+ 	4) exception, proper exeption handling, type checking 
+ 	5) pep8, how the code follows PEP8?
+ 3. Grading the homework with the specific criterion, you would give A,B,C and D respectively.
+
+ 4. Please give the comments why the grades, if one line can not acccomodate, please create a file in the directory of comments. The comment file should also be checked into the git repository.
+
+ IMPORTANT:
+ Please DO fix the conflication of git correctly, otherwise you may mess up other's submission.
+
+ Demo
+ --------
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 666666666666, 111111111111, A, B, C, A, B
+ comment: some explanation for why the grade
+ 666666666666, 111111111112, B, A, D, A, A
+ comment: comments/666666666666-111111111112.txt (if one line can not accomodate)
+ 666666666666, 111111111113, C, B, C, C, B
+ comment: some explanation for why the grade
+ 666666666666, 111111111114, A, A, D, A, A
+ comment: some explanation for why the grade
+ 666666666666, 111111111115, B, B, C, D, B
+ comment: some explanation for why the grade
+
+
+ Grading list
+ --------
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320170900210, 320180941691,  A, A, A, A, B
+ comment:the code is not pythonic
+ 320170900210, 320180942301,  A, B, B, A, B
+ comment:the code is not pythonic,but no doctest,comments in Chinese
+ 320170900210, 320180940891,  A, B, B, A, B
+ comment:the code is not pythonic,but no doctest,comments in Chinese
+ 320170900210, 320180941881,  A, A, B, A, B
+ comment:the code is not pythonic,missing comments
+ 320170900210, 320180941991,  A, A, B, A, A
+ comment:comments in Chinese
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320170903441, 320180941370, A, A, A, B, C
+ comment:There is no error or expection in code, but no pythonic code.
+ 320170903441, 320180941901, A, A, A, A, A
+ comment:The code is complete, dosen't exist error and uses pythonic code. 
+ 320170903441, 320180941931, A, B, C, C, C
+ comment: He used chinese comment and improper code style.
+ 320170903441, 320180940981, A, B, C, B, B
+ comment:The docstr and comment isn't complete.
+ 320170903441, 320170926300, A, C, B, B, A
+ comment:The functionality of code is complex and complete but doesn't exist proper  docstr and comment.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320170926300, 320180942321, 
+ comment:
+ 320170926300, 320180941370, 
+ comment:
+ 320170926300, 320180941980, 
+ comment:
+ 320170926300, 320180941651, 
+ comment:
+ 320170926300, 320180942131, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320170929331, 320180941691, B, A, A, B, A
+ comment:someting was wrong in Matrix.invert() and some exceptions were beyond consideration, no type chenking
+ 320170929331, 320180940891, B, C, D, C, B
+ comment:barely no documentations nor comments, cannot handle some cases(such as __setitem__() )
+ 320170929331, 320180942201, D, D, B, C, B
+ comment:cannot pass the compiling, no tests, no documentations, comment in chinese, but its basically pythonic
+ 320170929331, 320180941931, B, C, C, B, B
+ comment:barely no tests, no docstr nor doctests, comment in chinese, but have type checking in __mul__()
+ 320170929331, 320180941011, D, B, B, C, B
+ comment:cannot pass the doctest and compiling, have many problem in exception handling
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180919421, 320170900210, 
+ comment:
+ 320180919421, 320180941861, 
+ comment:
+ 320180919421, 320180942211, 
+ comment:
+ 320180919421, 320180941361, 
+ comment:
+ 320180919421, 320180942201, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180928901, 320180941141, A,C,B,C,C
+ comment:No write class no test documentation, but the overall code is ok
+ 320180928901, 320180941581, A,A,A,A,A
+ comment:The code is rigorous, the function is perfect.
+ 320180928901, 320180941161, A,A,A,A,A
+ comment:The code is well-written and well commented.
+ 320180928901, 320180942261, A,A,A,A,A
+ comment:do a good job,perfect!
+ 320180928901, 320180940961, A,A,B,B,B
+ comment:The code as a whole is ok, but there is no exception handling or proper code specification.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180940780, 320180940961, A, A, A, B, A
+ comment:The code is clean and complete, but it lacks exception handling.
+ 320180940780, 320180941821, A, A, A, B, A
+ comment:The code is very clean, exception handling is a little bit less.
+ 320180940780, 320170929331, A, A, A ,B, A
+ comment:The code is easy to read and the tests and docstest are correct.
+ 320180940780, 320180940981, A, B, B, B, A
+ comment:Doctest is not written in main, code has less comment.
+ 320180940780, 320170903441, A, A, A, A, A
+ comment:The code is easy to read, the tests are correct, and exceptions are handled well.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180940891, 320170900210, A,A,B,A,A
+ comment:
+ 320180940891, 320180928901, A,A,B,A,B
+ comment:This is good!but is not profect.
+ 320180940891, 320180940780, B,A,B,B,A
+ comment: having false
+ 320180940891, 320180941841, A,A,A,B,A
+ comment: OK, but not perfect
+ 320180940891, 320180941691, A,B,A,A,A
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180940961, 320180928901, A,A,B,A,B
+ comment:Good job!But theformat is *.py instead of *.ipynb.
+ 320180940961, 320180941420, A,A,B,B,B
+ comment:Good job!Pay attention to the pep8.
+ 320180940961, 320180941931, 
+ comment:Good job!
+ 320180940961, 320180941901, B,A,B,A,A
+ comment:Good job!
+ 320180940961, 320180942181,A,A,B,B,B 
+ comment:Complete more functions.But pay attention to the pep8.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180940981, 320180941001,A,A,A,A,A
+ comment:the function is perfect,the test is perfect,good job
+ 320180940981, 320180941980,A,A,A,A,A
+ comment:totally good!
+ 320180940981, 320170929331,A,A,A,A,B 
+ comment:care about pep8
+ 320180940981, 320170903441,A,A,A,A,B 
+ comment:pay attention to the coding style and pep8
+ 320180940981, 320170900210, A,A,A,A,B
+ comment:pay attention to the coding style and pep8
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941001, 320180941141, A,C,B,C,C
+ comment:no write class, no test documentation, but the code is not bad
+ 320180941001, 320180940780, A,A,A,A,B
+ comment:the code is ok,just a little problem in it
+ 320180941001, 320180919421, A,A,A,A,B
+ comment:The code is correct,the exceptions is right
+ 320180941001, 320180941460, A,B,B,A,A
+ comment:the doctest don't perfect.But the rest is perfect.
+ 320180941001, 320180941011, A,C,A,A,A
+ comment:It doesn't have doctest,but the rest is correct.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941011, 320180942321, A, A, A, A, A
+ comment: virtually a perfect code, no wrong grammar, integrated test part, totally beyond what an undergraduate should be able to do
+ 320180941011, 320180919421, A, A, A, A, A
+ comment: completely correct, elaborate docs, proper exceptions
+ 320180941011, 320180941361, A, B, C, C, A
+ comment: basically right, simple test part, hardly any docs, no exceptions
+ 320180941011, 320180941161, B, A, B, C, A
+ comment:lack of some functions, comments in Chinese, no exceptions
+ 320180941011, 320180942211, A, A, B, A, A
+ comment:comments in Chinese
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941141, 320180941250, 
+ comment:
+ 320180941141, 320180941291, 
+ comment:
+ 320180941141, 320180941780, 
+ comment:
+ 320180941141, 320180942261, 
+ comment:
+ 320180941141, 320180941001, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941161, 320180941370, A,A,A,A,B
+ comment: Good job! But the coding style isn't pythonic.
+ 320180941161, 320180941881, A,B,A,A,B
+ comment: the test is not very correct. And the coding style isn't pythonic.
+ 320180941161, 320180940981, A,B,A,A,B
+ comment:  The coding style isn't pythonic.
+ 320180941161, 320180928901, A,B,A,A,B
+ comment: The coding style isn't pythonic.
+ 320180941161, 320180940780, A,A,A,A,B
+ comment:the coding style isn't pythonic.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941250, 320170926300, A,C,B,A,A
+ comment:code functions are complete,but more comments are in Chinese,test is not doctest.
+ 320180941250, 320180941590, A,B,C,B,A
+ comment:code missing many comments,and not do test.
+ 320180941250, 320180941841, A,A,A,B,A
+ comment:code is concise and functions are complete,exception handling needs improvement.
+ 320180941250, 320180942011, A,A,A,A,A
+ comment:code is great,functions are complete!
+ 320180941250, 320180942021, A,A,A,A,A
+ comment:functions are complete,correct and great code!
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941291, 320180942011, A, A, A, A, A
+ comment:No grammar errors, the functions of class are complete. The code is concise and the doctest is easy to understand.
+ 320180941291, 320180941581, A, A, A, A, A
+ comment:The coding style is correct and there are no errors in the code. The class is functional fully.
+ 320180941291, 320180941890, A, A, A, A, A
+ comment:No grammar errors in code and the exception hundling is complete. The only problem is note annotation is a little brief.
+ 320180941291, 320180942021, A, A, A, A, A
+ comment:There is no errors or exceptions in the code and the functions are complete. The coding style is also proper.
+ 320180941291, 320180942301, A, A, B, A, A
+ comment:The code is right but the writter didn't use doctest and there is too much Chinese in the note annotation.  
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941361, 320170926300, 
+ comment:
+ 320180941361, 320180940891, 
+ comment:
+ 320180941361, 320180941161, 
+ comment:
+ 320180941361, 320180941821, 
+ comment:
+ 320180941361, 320170929331, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941370, 320180940891, A,B,B,A,B
+ comment:Good job!But you should use the doctest.And the note need in English!
+ 320180941370, 320180941980, A,A,A,A,B
+ comment:Good job!But your style is not pythonic.
+ 320180941370, 320180941011, A,B,A,A,B
+ comment:Good job!But you should use the doctest!
+ 320180941370, 320180940961, A,A,A,A,A
+ comment:Great!
+ 320180941370, 320180942261, A,A,A,A,A
+ comment:Great!
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941420, 320180941901, A, A, B, A, A
+ comment: complete functions, but documentation is not good
+ 320180941420, 320170926300, A, B, B, B, A
+ comment: no exception and no doctest
+ 320180941420, 320180941780, B, A, A, B, A
+ comment: function of dot_mul is flase
+ 320180941420, 320180941821, A, A, B, A, A
+ comment: documentation is not good
+ 320180941420, 320180942011, A, A, A, B, A
+ comment: complete functions, but no exception
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941460, 320180941821, A, A, A, B, A
+ comment:complete enough functions,but not enough exception
+ 320180941460, 320180941890, A, A, C, B, A
+ comment:the code is right but the documentation is chinese, not much exception
+ 320180941460, 320180942011, A, A, A, B, A
+ comment:the function and documentation is detailed, not much exception
+ 320180941460, 320180941841, A, A, B, B, A
+ comment:complete many functions and the code is concise
+ 320180941460, 320180941161, A, A, C, B, A
+ comment:describe matrix in two parts, half documentation is chinese, not much exception
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941581, 320180941590, A,C,C,B,B
+ comment: Complete functions and pythonic. But no doctest, no docstr.
+ 320180941581, 320180942131, A,B,B,A,B
+ comment: Great code, abundant functions and methods. No doctest, part Chinese docstr. 
+ 320180941581, 320180941141, B,D,D,C,C
+ comment: The code is not pythonic, no dectest, no docstr, no exception, no test. 
+ 320180941581, 320170929331, A,A,A,A,A
+ comment: The code has great test and docstr. Class has abundant functions and methods. Code is pythonic.
+ 320180941581, 320180941291, A,A,A,A,A
+ comment:The code is pythonic and has great test amd docstr. Clear docstr,full functions, exception great.  
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941590, 320180942211, 
+ comment:
+ 320180941590, 320180941011, 
+ comment:
+ 320180941590, 320170900210, 
+ comment:
+ 320180941590, 320180942181, 
+ comment:
+ 320180941590, 320180941420, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941651, 320180942301, B,C,A,B,B
+ comment:the code is not pythonic,but no doctest,comments in Chinese
+ 320180941651, 320180942321, B,C,A,B,B
+ comment:the doctest is not complete,and the code is no pythonic
+ 320180941651, 320180941001, B,C,B,A,B
+ comment:the test is wrong,and comments are good
+ 320180941651, 320180941861, A,A,B,A,B
+ comment:the code is good,but not perfect,and the test is right
+ 320180941651, 320180942201, A,C,B,A,B
+ comment:comments is not English,no test, the code can be pythonic
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941691, 320180941250, B,C,C,B,B
+ comment:No doctest, No documentation.
+ 320180941691, 320180941881, A,A,A,A,A
+ comment:the code is clean.
+ 320180941691, 320180941861, A,A,A,A,B
+ comment:parts of the code do not conform to pep8
+ 320180941691, 320180941001,  A,A,B,A,A
+ comment:no class comment
+ 320180941691, 320180941651, A,A,B,A,A
+ comment:no type checking and Chinese is used in document
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941780, 320180942181, A, A, B, A, A
+ comment: There's not enough ducumentation, like information about author and so on.
+ 320180941780, 320180941250, B, D, C, B, B
+ comment: No doctest. And the code is not pythonic.
+ 320180941780, 320180941991, A, D, C, B, B
+ comment: No doctest. The docstr is in Chinese.
+ 320180941780, 320180941460, A, B, B, A, A
+ comment: Some functions don't have doctest.
+ 320180941780, 320180942321, A, A, C, A, B
+ comment: The documentation is insufficient.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941821, 320180942201, B, B, A, C, B
+ comment:I can'run it. Maybe you should try to give documentation in english, and give some test.
+ 320180941821, 320180941420, A, A, A, B, B
+ comment:Good job! If you can cansider about exception and pythonic, it will be better.
+ 320180941821, 320180941780, A, B, A, B, A
+ comment:Excellent work! It's so beautiful.
+ 320180941821, 320180942181, A, A, A, A, A
+ comment:I can' find how to improve it.
+ 320180941821, 320180941991, A, A, B, A, B
+ comment:It will be better if you can provide ducumentation in English.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941841, 320180941691, A, B, A, B, A
+ comment: Excellent code! But some wrong in the test-case of Matrix.invert() and some exceptions not considered.
+ 320180941841, 320180942301, A, C, D, B, C
+ comment: Although the function is correct but not perfect, the test cases are confused and use Chinese, and the code style is seriously inconsistent with pep8.
+ 320180941841, 320180941861, A, B, B, A, B
+ comment: Excellent code! But although the function is correct but not perfect and does not conform to pep8 much.
+ 320180941841, 320180941581, A, C, B, A, B
+ comment: Excellent code! But no doctest, The documentation are not perfect. Some parts conform to pep8 and some parts do not conform to pep8.
+ 320180941841, 320180941881, A, A, B, A, B
+ comment: Excellent work! But doctest is better place in function and the code is not conform to pep8  much and the documentation is a little rough.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941861, 320180940780, B, A, B, B, A
+ comment: the coding style isn't pythonic. Having false.
+ 320180941861, 320180941291, A, A, B, A, B
+ comment:Code doesn't all follow PEP8 rules. No document, and comment format is strange.
+ 320180941861, 320180940981, A, B, A, A, B
+ comment:the coding style isn't pythonic.
+ 320180941861, 320180941890, A, A, B, B, A
+ comment:IN ENGLISH. LONGER EXPECTIN
+ 320180941861, 320180942261, A, A, A, A, A
+ comment: ONLY NB
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941881, 320180942261, A,A,A,A,A
+ comment:perfect code ,the class has many functions and no grammar wrong,code style is standard
+ 320180941881, 320180941011, A,C,A,A,A
+ comment:correct result,with appropriate description,has test but not doctest,
+ 320180941881, 320180940961, A,A,A,B,A
+ comment:has good functions and document,but no exception handling
+ 320180941881, 320180941590, A,B,C,A,A
+ comment:result is correct and no grammar wrong,but has no doctest and documentation
+ 320180941881, 320180941420, A,A,A,A,B
+ comment:prefect code,but a little problem with annotation style
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941890, 320180941420, A,A,A,B,A
+ comment:Function,test correct,basically comply with the specification,lack of exception,some docstr can be added appropriately
+ 320180941890, 320180941141, A,C,B,C,A
+ comment:Function correct,lack doctest,docstr and exception handling
+ 320180941890, 320180941841, A,A,A,A,A
+ comment:Well done,missing some exception handling
+ 320180941890, 320180942301, B,C,A,C,A
+ comment:Function not fully implemented correctly,lack of doctest and exception handling
+ 320180941890, 320180919421, A,A,A,A,A
+ comment:Well done,everything is totally covered
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941901, 320180941931, A, B, C, B, C
+ comment: Chinese is used. The functions are right but there is no doctest ,no documentation . And the code does't follow PEP8 so that it looks too compact.
+ 320180941901, 320180941651, B, A, B, B, A
+ comment: Well, Chinese is used in document. The functions  are not very comprehensive.  Exception handling has no type checking in some functions, such as use " isinstance(object, Matrix ) " .
+ 320180941901, 320170903441, A, A, B, B, A
+ comment: The code does not has  detailed documents.  Exception handling is used but not fully used. Above all it is good job. 
+ 320180941901, 320180941460, B, A, B, B, A 
+ comment: The code could have more  detailed documents. Exception handling has no type checking in some functions. The code could be more pythonic.
+ 320180941901, 320180941291, B, A, B, A, B
+ comment: no document and comment format is strange. Code doesn't all follow PEP8 rules. Exeption handling is good!
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941931, 320180940961, C,B,B,C,B
+ comment:The code is sth. wrong. Function is not full.
+ 320180941931, 320180941581, B,A,B,A,A
+ comment:A few wrong. 
+ 320180941931, 320180941370, A,B,A,B,A
+ comment:Well done but no explanation.
+ 320180941931, 320180941161, A,A,A,A,A
+ comment:Correct. Everything was thought over.
+ 320180941931, 320180941861, A,B,B,B,A
+ comment:Function is not full. Other is OK.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941980, 320180919421, A, A, A, A, A
+ comment:There is ample documentation and testing, and the code is well-written
+ 320180941980, 320180941370, A, A, B, A, B
+ comment:The code is nice, but it lacks a docstring for the function
+ 320180941980, 320180941991, A, B, B, B, A
+ comment:The test was written in main () instead of doctest, and there was no docstring, no error considerations
+ 320180941980, 320180941881, A, A, A, A, A
+ comment:Documentation and testing are good, errors are considered, and the code is clean
+ 320180941980, 320180942211, A, A, A, A, A
+ comment:Everything is rigorous, the details are perfect, it can be a model
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180941991, 320180941590, 
+ comment:
+ 320180941991, 320180941361, 
+ comment:
+ 320180941991, 320180928901, 
+ comment:
+ 320180941991, 320180941651, 
+ comment:
+ 320180941991, 320180942021, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942011, 320180941460, A, A, B, A, A
+ comment: The code and doctests are correct. But some functions have short documentation.
+ 320180942011, 320180941651, A, A, B, A, B
+ comment: Please write down the overview in English and Pythonic.
+ 320180942011, 320180941901, A, A, A, A, A
+ comment: Good job. Implements quite a few functions and beautiful code.
+ 320180942011, 320180941980, A, A, A, A, A
+ comment: You can make more functions to do more things and you have finished it well.
+ 320180942011, 320170926300, A, C, B, A, B
+ comment: There is no doctests. And the documentation is too short.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942021, 320180941780, A, A, A, A, A
+ comment:No problem. Code integrity.
+ 320180942021, 320180941001, A, A, B, A, A
+ comment:There is no big problem in the code here. But there is no class comment.
+ 320180942021, 320180940981, A, C, B, A, A
+ comment:The code does not call doctest for testing. And there is no class comment, too.
+ 320180942021, 320180941980, A, A, A, A, A
+ comment:Perfect code.
+ 320180942021, 320180941861, A, A, A, A, B
+ comment:The code is correct. But some parts of the code do not conform to pep8 specification.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942131, 320180941931,  A, C, D, C, B
+ comment:corrent code, Comments in Chinese,  No documentation,  Few exception,  Common pep8.
+ 320180942131, 320180919421,  A, A, A, A, A
+ comment:correct code, good documentation, complete test, common pep8
+ 320180942131, 320180941250,  B, A, C, A, C
+ comment:correct but  onerous code, common test, little documentation, faulty pep8
+ 320180942131, 320180941991, B, D, A, A, C
+ comment:correct but  onerous code, no comments in Chinese, no doctest, faulty pep8, 
+ 320180942131, 320180941691, A, A, A, A, A 
+ comment:corrent code, perfect comment, pefect documentation and exception, pep8
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942181, 320180940961, 
+ comment:
+ 320180942181, 320180941991, 
+ comment:
+ 320180942181, 320180942301, 
+ comment:
+ 320180942181, 320180941890, 
+ comment:
+ 320180942181, 320180941931, 
+ comment:
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942201, 320180941780, A,A,A,A,A
+ comment:Good function, exquisite style
+ 320180942201, 320180942021, A,A,A,A,A
+ comment:Superb level
+ 320180942201, 320180942131, A,A,A,A,A
+ comment:Logical rigor is well thought out
+ 320180942201, 320180941581, A,A,A,A,A
+ comment:Well done. This code is beautiful
+ 320180942201, 320180942211, A,A,A,A,A
+ comment:This is the best code I've ever seen
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942211, 320180928901, A, A, A, A, A
+ comment: Well done. Please use *.py format next time rather than *.ipynb and delete repeated file in your folder.
+ 320180942211, 320170926300, A, B, B, A, A
+ comment: Please try to use more English comments, and test by doctest.
+ 320180942211, 320180941370, A, A, A, A, A
+ comment: You can try to use assert to dealing with exception next time, which is more simple.
+ 320180942211, 320180941361, A, B, B, A, A 
+ comment: Please try to use more English comments, and test by doctest.
+ 320180942211, 320180941881, A, A, A, A, A
+ comment: Well done. Add whitespaces after comma can make your code more pythonic.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942261, 320170903441, A, A, A, A, A
+ comment:comments/320180942261-320170903441.txt
+ 320180942261, 320170929331, A, A, A, B, A
+ comment:comments/320180942261-320170929331.txt
+ 320180942261, 320180941291, A, A, A, A, B
+ comment:comments/320180942261-320180941291.txt
+ 320180942261, 320180942181, A, A, A, A, A
+ comment:comments/320180942261-320180942181.txt 
+ 320180942261, 320180941141, B, B, B, B, B
+ comment:There is no new class, seems to be a misunderstanding of the job?
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942301, 320180940780, A, B, A, B, A
+ comment:Lack of exception handling and testing, the functions are basically implemented, and the code is very clear.
+ 320180942301, 320170903441, A, A, A, A, A
+ comment:Each function is implemented and easy to understand, the code is correct, and the annotation is very perfect.
+ 320180942301, 320180941011, A, A, A, A, A
+ comment:The document test is well written, and the usage of various functions is clear. Assert used for exception handling is very simple.
+ 320180942301, 320180941001, A, A, B, A, A
+ comment:Using assert to handle exceptions, the document test is very concise
+ 320180942301, 320180941841, A, B, A, C, A
+ comment:Using LRU cache and product third-party library, the code is simple and easy to understand, but the function is not perfect, the test doctest is not perfect, and there is no exception handling.
+ Reviewer, homework, correctness, test, documentation, exception, pep8
+ 320180942321, 320180941821, A, A, A, B, A
+ comment:exception is not very good
+ 320180942321, 320180942011, A, A, A, A, A
+ comment:the code is excellent
+ 320180942321, 320180942131, A, B, A, B, B
+ comment:doctest and exception is not comprehensive,doesn't follow PEP8 well
+ 320180942321, 320180941691, A, A, A, B, B
+ comment:exception is not very good,doesn't follow PEP8 well
+ 320180942321, 320180941250, A, B, A, B, B
+ comment:doctest and exception is not good,doesn't follow PEP8 well

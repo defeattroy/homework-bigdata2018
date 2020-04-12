@@ -1,0 +1,13 @@
+1.correctness(A):
+After testing, the function of the implementation in the given scope is correct.
+2.test(A):
+Have doctest in __main__，pass all the running tests. 
+Have help message in each method.
+3.documentation(A):
+There are proper comments, but there seems to be a lack of copyright, author, and version information...
+4.exception(A):
+Use assert and excepthon, maybe have too broad exception clause?(in 30th, 95th, 111th, 150th, 167th, 282th, 309th line of code)
+5.pep8(A):
+The code style is closest to pep8 in five studets, and here is a recommendation:
+	Try to limit the maximum length of each line to 79 lines, beyond which you can use '\' or parentheses to wrap the line:
+		in 14th-17th, 26th, 59th, 83th, 94th, 100th, 109th...and so on.
