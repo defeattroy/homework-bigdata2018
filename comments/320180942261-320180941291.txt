@@ -1,0 +1,21 @@
+1.correctness(A):
+After testing, the function of the implementation in the given scope is correct.
+According to the provided (__init__), it seems impossible to create any matrix by value?
+line 101, "isinstance(other, Matrix) == False" can be replaced with "not isinstance(other, Matrix)", all are right.
+2.test(A):
+Have doctest in __main__，pass all the running tests. 
+Have help message in each method.
+3.documentation(A):
+There are proper comments, but there seems to be a lack of copyright, author, and version information...
+4.exception(A):
+Use assert and excepthon, error.
+5.pep8(B):
+There seems to be some pep8 format specification issues:
+	1.Indentation contains tabs(all lines).
+	2.Missing whitespace around operator(all operator).
+	3.Missing whitespace after ',':
+		in: 9th, 43th, 127th line of code. 
+	4.Between classes expected 2 blank lines:
+		in: 2nd line of code.
+	5.Block comment should start with '# '(Missing a space):
+		in: 4th line of code.
